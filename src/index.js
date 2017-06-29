@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import RootRouter from './config/Route-Config'
+// import RootRouter from './config/Route-Config'
 
 import 'antd/dist/antd.less'
 
+import AppController from './Controllers/AppController'
+
 ReactDOM.render(
-  <div>
-    {RootRouter}
-  </div>,
+  <AppController/>,
   document.getElementById('app')
 )

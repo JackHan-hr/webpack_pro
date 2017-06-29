@@ -8,11 +8,11 @@ var APP_PATH = path.resolve(ROOT_PATH, 'src');
 var APP_FILE = path.resolve(APP_PATH, 'index.js');
 
 module.exports = {
-  entry: {
+  entry: [
     'webpack/hot/dev-server',
     'webpack-dev-server/client?http://localhost:8080',
     APP_FILE
-  },
+  ],
 
   output: {
     path: APP_PATH,
