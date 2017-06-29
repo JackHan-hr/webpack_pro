@@ -1,0 +1,51 @@
+{
+  "name": "webpack_pro",
+  "version": "1.0.0",
+  "description": "The Demo is Practice!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --devtool eval --progress --colors --hot --inline --content-base src",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JackHan-hr/webpack_pro.git"
+  },
+  "author": "hr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackHan-hr/webpack_pro/issues"
+  },
+  "homepage": "https://github.com/JackHan-hr/webpack_pro#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-import": "^1.2.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "es6-promise": "^4.1.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "fetch-jsonp": "^1.1.1",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "mockjs": "^1.0.1-beta3",
+    "open-browser-webpack-plugin": "0.0.5",
+    "react-hot-loader": "^1.3.1",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0",
+    "yarn": "^0.24.5"
+  },
+  "dependencies": {
+    "antd": "^2.11.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.1.1"
+  }
+}
